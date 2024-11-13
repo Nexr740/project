@@ -38,6 +38,26 @@ body{
     object-fit: contain;
     object-position: center;
 }
+.header{
+    background-color:  #33333332;
+    display: flex;
+    position: relative;
+    height: 500px;
+    border: none;
+    margin: 20px 20px 0 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+.new{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.the{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
 
 .travel h2{
     font-weight: bold;
@@ -65,7 +85,7 @@ body{
     
 }
 .button .b a:active, a:hover, a:visited, a{
-    color: rgb(0, 170, 255);
+    color: rgb(57, 192, 250);
     text-decoration: none;
     
 }
@@ -106,10 +126,7 @@ body{
     border-radius: 20px;
     position: absolute;
     top: 1100px;
-    width: 1000px;
-}
-.content:first-of-type{
-    margin: 20px;
+    width: 1390px; 
 }
 .iframe{
     display: flex;
@@ -118,8 +135,8 @@ body{
 .iframe iframe{
     display: flex;
     position: absolute;
-    top: -3915px;
-    left: 950px;
+    top: -480px;
+    left: 920px;
     width: 450px;
     height: 390px;
 }
@@ -131,6 +148,7 @@ body{
     border: none;
     margin: 0 20px 0 20px;
     border-radius: 20px;
+    backdrop-filter: blur(5px);
 }
 .hotel-and-rest .h1{
     position: absolute;
